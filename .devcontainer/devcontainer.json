@@ -1,0 +1,11 @@
+
+{
+  "name": "Hello DevOps DevContainer",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "workspaceFolder": "/workspace",
+  "postCreateCommand": "npm install",
+  "forwardPorts": [8080],
+  "remoteUser": "node"
+}
