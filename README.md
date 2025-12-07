@@ -17,7 +17,7 @@ Az alkalmazás egy egyszerű HTTP szerver, amely a `http://localhost:8080` címe
 Hello DevOps!
 ```
 
-### Fő fájl: `index.js`
+### Fő fájl: `server.js`
 ```javascript
 const express = require('express');
 const app = express();
